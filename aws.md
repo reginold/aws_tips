@@ -16,7 +16,11 @@
 # AWS ECS 関連技術
 - ECR
 - ECS
-
+  - InvalidParameterException: No Container Instances were found in your cluster.
+    - ネットワーク不良、必要であるパッケージがインストールされてません 
+  - ECSの中、EFSをmountする
+    - https://aws.amazon.com/jp/premiumsupport/knowledge-center/ecs-fargate-mount-efs-containers-tasks/
+    - https://docs.aws.amazon.com/ja_jp/AmazonECS/latest/developerguide/tutorial-efs-volumes.html    
 # AWS CICD pipeline 
 - [codebuild reference](https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html)
 - [docker sample](https://docs.aws.amazon.com/codebuild/latest/userguide/sample-docker.html)
